@@ -46,7 +46,7 @@ maxAcuracy = 0
 nComponentes = 63
 set.seed(0)
 #Separa dados de treinamento e teste
-for(i in 1:5){
+for(i in 1:10){
   splitTrainData = NULL
   for(k in 1:40){
     splitTrainData = c(splitTrainData, 
